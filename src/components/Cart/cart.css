@@ -1,0 +1,31 @@
+.buttons {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    align-items: stretch;
+    justify-content: space-around;
+    font-size: 18px;
+    border: 6px !important;
+    font-weight: 500 !important;
+    font-family: poppins;
+    margin: 4rem 0 0 0;
+}
+.review-order {
+    background: #FF9900;
+}
+.clear-cart {
+    background: #FF3030;
+}
+.buttons button:hover {
+    background-color: #1C2B35;
+    color: #fff;
+}
+.buttons button {
+    padding: 15px 20px;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) .3s;
+    width: 16rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}

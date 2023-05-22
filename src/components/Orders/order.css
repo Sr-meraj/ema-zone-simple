@@ -1,0 +1,12 @@
+.order-review {
+    display: grid !important;
+    grid-template-columns: 4fr 1fr !important;
+}
+.cart-sidebar p {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.orders {
+    margin: auto;
+}

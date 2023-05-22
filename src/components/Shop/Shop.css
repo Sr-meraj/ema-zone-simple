@@ -1,10 +1,23 @@
-.shop-container{
+.shop {
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
-.products-container{
-    margin: 50px;
+
+.cart-sidebar {
+    background-color: rgba(255, 153, 0, 0.3);
+    padding: 0 1rem;
+}
+
+.cart-sidebar p {
+    font-size: 17px;
+    font-weight: 600;
+}
+.review-order {
+    background: #FF9900;
+}
+.shop-containers {
+    gap: 40px;
+    margin: 100px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 45px;
 }

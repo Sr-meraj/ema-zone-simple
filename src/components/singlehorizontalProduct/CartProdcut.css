@@ -1,0 +1,55 @@
+.cart-wrapper {
+    display: flex;
+    align-items: center;
+    width: 30rem; 
+    margin-bottom: 1.2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.cart-wrapper img {
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 8px;
+}
+
+.cart-info {
+    margin-left: 1.5rem;
+    padding-top: 0.25rem;
+    flex-grow: 1;
+}
+
+.cart-title {
+    color: #1a202c;
+    font-size: 1rem;
+    line-height: 1.25;
+    margin: 0 0 10px 0;
+}
+
+.cart-info p {
+    color: #718096;
+    font-size: 1rem;
+    line-height: 1;
+    margin: 5px;
+}
+.Trashbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4444444px;
+    background-color: rgba(255, 34, 0, .1);
+    padding: 6px 0;
+}
+.Trashbutton button {
+    padding: 5px 15px;
+    border-radius: 4444px;
+    color: rgba(255, 34, 0, 0.852);
+    background: transparent;
+    border: none;
+}
+
+.Trashbutton button:hover{
+    border: none;
+}

@@ -1,15 +1,16 @@
-import { useState } from 'react'
+import { Outlet, useNavigation } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header/Header'
-import Shop from './components/Shop/Shop'
+import Spinner from './Loaders/Spinner/Spinner'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const navigation = useNavigation()
 
   return (
     <div className="App">
       <Header></Header>
-      <Shop></Shop>
+      {navigation.state === 'loading' && <Spinner/>}
+      <Outlet/>
     </div>
   )
 }
